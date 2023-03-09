@@ -1,0 +1,42 @@
+.best-eater {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 33px;
+    font-style: italic;
+  }
+  
+  .heading {
+    z-index: 1001;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 20px;
+    margin-top: 24px;
+    font-weight: 600;
+  }
+  .heading span {
+    background: #15a0e1;
+    color: #fff;
+    font-size: 21px;
+    display: inline-block;
+    padding: 9px 3rem;
+    -webkit-clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+            clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  }
