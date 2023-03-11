@@ -34,7 +34,7 @@ class UserController extends Controller
     }
 
     public function edit($id)
-    {
+    { 
         $edituser=User::find($id);
         return view('admin.editadmin')->with([
             'edituser'=>$edituser
