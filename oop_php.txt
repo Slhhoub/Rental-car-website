@@ -1,0 +1,35 @@
+--> PHP - The __construct Function:
+. A constructor allows you to initialize an object's properties upon creation of the object.
+
+--> PHP - Access Modifiers
+1 : public - the property or method can be accessed from everywhere. This is default
+2 : protected - the property or method can be accessed within the class and by classes derived from that class
+3 : private - the property or method can ONLY be accessed within the class
+
+--> PHP - What is Inheritance
+. Inheritance in OOP = When a class derives from another class.
+. The child class will inherit all the public and protected properties and methods from the parent class. In addition,
+it can have its own properties and methods.
+. An inherited class is defined by using the extends keyword.
+
+--> PHP - What are Interfaces
+. Interfaces allow you to specify what methods a class should implement.
+
+--> PHP OOP - Abstract Classe
+. Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.
+
+--> Diffrent betwen abstract and interface : 
+I _ in abstract classes:
+1 : You can include method signatures with or without method implementations.
+2 : You can also have properties with access modifiers (public, protected, private).
+3 : Abstract classes can include constructors.
+II _ Interfaces in PHP:
+1 : Interfaces can only contain method signatures (method names without implementations).
+2 : They cannot include properties with access modifiers.
+3 : Constructors cannot be defined in interfaces.
+4 : A class that implements an interface must provide implementations for all the methods
+declared in the interface.
+
+--> Polymorphism in PHP : 
+. in PHP refers to the ability of objects to take on different forms and exhibit different behaviors while sharing a common interface.
+. It allows different classes to implement the same method name with different functionality.
