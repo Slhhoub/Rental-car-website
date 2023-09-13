@@ -1,0 +1,39 @@
+--> PHP OOP - Static Properties and Static Methods
+
+I _ PHP - Static Methods
+
+Static methods can be called directly - without creating an instance of the class first.
+
+II _ PHP - Static Properties
+Static properties can be called directly - without creating an instance of a class.
+
+__Example :
+class Phone{
+    public static  $name="redmi";
+    public static $ram='6g';
+    public static function Tostring()
+    {
+        return 'phone : '.self::$name.' and ram : '.self::$ram;
+    }
+}
+echo Phone :: $name;
+echo Phone :: Tostring();
+$f=new Phone();
+echo $f->Tostring();
+
+--> PHP Namespaces
+Namespaces are qualifiers that solve two different problems:
+. They allow for better organization by grouping classes that work together to perform a task
+. They allow the same name to be used for more than one class
+
+--> In Laravel, the compact function
+This is often used when passing data to views in Laravel.
+
+--> A "seeder" in Laravel 
+seeder is a tool for adding initial data to a database table, useful for development and testing.
+
+--> A "factory" in Laravel 
+factory is a tool for generating test data for your application's models, making it easier to write tests and populate your database with sample data.
+
+--> fake() in Laravel
+is a method used in factories to generate random or fake data for model attributes, aiding in the creation of diverse and realistic test data.
