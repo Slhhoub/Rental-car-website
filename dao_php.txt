@@ -37,3 +37,6 @@ factory is a tool for generating test data for your application's models, making
 
 --> fake() in Laravel
 is a method used in factories to generate random or fake data for model attributes, aiding in the creation of diverse and realistic test data.
+
+--> A "flashbag" in Laravel 
+is a temporary storage mechanism for displaying short-lived messages or data to users in web applications, typically used for providing feedback or notifications after specific actions.
